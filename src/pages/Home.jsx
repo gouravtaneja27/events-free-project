@@ -10,6 +10,8 @@ import bg from "../assets/bg.png";
 import c1 from "../assets/c-1.png";
 import c2 from "../assets/c-2.png";
 import video from "../assets/video.png";
+import sec33 from "../assets/sec33.png";
+
 export default function Home() {
 
     const [playVideo, setPlayVideo] = useState(false);
@@ -266,11 +268,11 @@ export default function Home() {
 
             <div className="w-full h-full flex flex-col items-center justify-center relative">
 
-                <div className="absolute inset-0 bg-[url('./assets/bg-image-2.png')] bg-center bg-cover bg-no-repeat">
-                    <div className="absolute inset-0 bg-[rgba(44,73,254,0.8)]"></div>
+               
+
+                <div className="absolute inset-0 bg-[url('./assets/sec33.png')] bg-center bg-cover bg-no-repeat">
+                    <div className="absolute inset-0 bg-[#2C49FE]/40"></div>
                 </div>
-
-
                 <div className="relative z-10 max-w-[1320px] px-4 text-center flex flex-col justify-center    py-16">
                     <h1 className="max-w-[708px]  items-center font-Poppins font-bold text-[48px] leading-[130%]   text-center text-white mb-4">
                         Lorem ipsum dolor sit amet, consectetur
