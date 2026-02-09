@@ -78,29 +78,28 @@ function Footer() {
                     </div>
 
 
-                    <div className="w-1/2 max-lg:w-full flex gap-[74px] maxx-lg:gap-[150px] max-[640px]:gap-20  max-[504px]:flex-col   pt-[126px] max-lg:pt-[50px]">
+                    <div className="w-1/2 max-lg:w-full flex gap-[74px]  maxx-lg:gap-[150px] max-[640px]:gap-20  max-[504px]:flex-col   pt-[126px] max-lg:pt-[50px]">
+                        <div className="flex gap-[70px]">
 
-
-                        <div className="flex gap-[70px] ">
-
-                            <div className="flex flex-col gap-3    ">
+                            <div className="flex flex-col gap-3">
                                 <h1 className="font-Poppins font-bold text-[14px] text-white">SERVICES</h1>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0 ">About</p>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">News</p>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Contact</p>
+
+                                <p className="text-white text-[12px] cursor-pointer">About</p>
+                                <p className="text-white text-[12px] cursor-pointer">News</p>
+                                <p className="text-white text-[12px] cursor-pointer">Ullamcorper</p>
+                                <p className="text-white text-[12px] cursor-pointer">Contact</p>
                             </div>
 
                             <div className="flex flex-col gap-3 text-center max-lg:text-center">
                                 <h1 className="font-Poppins font-bold text-[14px] text-white">EVENTS</h1>
-                                <p className="text-white text-[12px] cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
-                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
+
+                                <p className="text-white text-[12px] cursor-pointer">Ullamcorper</p>
+                                <p className="text-white text-[12px] cursor-pointer">Ullamcorper</p>
+                                <p className="text-white text-[12px] cursor-pointer">Ullamcorper</p>
+                                <p className="text-white text-[12px] cursor-pointer">Ullamcorper</p>
                             </div>
 
                         </div>
-
                         <div className=" ">
                             <h1 className="font-Poppins font-bold text-[14px] pb-2.5   text-white">
                                 GALLERY
