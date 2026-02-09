@@ -16,6 +16,7 @@ import dp1 from "../assets/dp-1.png"
 import dp2 from "../assets/dp-2.png"
 import dp3 from "../assets/dp-3.png"
 import dp4 from "../assets/dp-4.png"
+import { NavLink } from "react-router-dom";
 
 export default function Feed() {
     const cards = Array(5).fill(0);
@@ -119,8 +120,20 @@ export default function Feed() {
                             <img src={man} alt="image" className='w-full h-full' />
                         </div>
                         <div className='flex flex-col max-[1064.98px]:items-center '>
-                            <span className="  text-black/60 font-Poppins font-normal text-[16px] leading-[150%] tracking-[0] ">{`Home > Feed`}</span>
+                            {/* <span className="  text-black/60 font-Poppins font-normal text-[16px] leading-[150%] tracking-[0] ">{`Home > Feed`}</span>
                             <h3 className=' text-black font-Poppins font-semibold text-[48px] leading-[150%] tracking-[0] pt-3 pb-4'>
+                                Jhone Doe
+                            </h3> */}
+
+                            <span className="text-black/60 font-Poppins font-normal text-[16px] leading-[150%]">
+                                <NavLink to="/" className="hover:text-black transition">
+                                    Home
+                                </NavLink>
+                                <span className="mx-1">{">"}</span>
+                                <span>Feed</span>
+                            </span>
+                         
+                            <h3 className="text-black font-Poppins font-semibold text-[48px] leading-[150%] pt-3 pb-4">
                                 Jhone Doe
                             </h3>
                             <p className=' max-[1064.98px]:text-center  max-[1064.98px]:max-w-full max-w-[862px] text-black/60 font-Poppins font-normal text-[16px] leading-[150%] tracking-[0]'>Dictumst vulputate eget quisque iaculis hendrerit quis ut fringilla. Senectus gravida sed interdum pretium at quam morbi. Nunc, libero nam cursus sem faucibus urna. Hendrerit vulputate in duis donec sit. Ut vitae dolor fringilla urna eget aliquet.</p>
