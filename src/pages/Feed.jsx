@@ -120,10 +120,6 @@ export default function Feed() {
                             <img src={man} alt="image" className='w-full h-full' />
                         </div>
                         <div className='flex flex-col max-[1064.98px]:items-center '>
-                            {/* <span className="  text-black/60 font-Poppins font-normal text-[16px] leading-[150%] tracking-[0] ">{`Home > Feed`}</span>
-                            <h3 className=' text-black font-Poppins font-semibold text-[48px] leading-[150%] tracking-[0] pt-3 pb-4'>
-                                Jhone Doe
-                            </h3> */}
 
                             <span className="text-black/60 font-Poppins font-normal text-[16px] leading-[150%]">
                                 <NavLink to="/" className="hover:text-black transition">
