@@ -365,18 +365,32 @@ export default function Home() {
 
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <NavLink to="/Events" className="cursor-pointer flex flex-col gap-1.5 p-3 hover:bg-white hover:shadow-[2px_9px_32px_0px_rgba(0,0,0,0.16)] shadow-[2px_9px_32px_0px_rgba(0,0,0,0.06)]">
+                            <div
+                                className="cursor-pointer flex flex-col gap-1.5 p-3
+             hover:bg-white
+             hover:shadow-[2px_9px_32px_0px_rgba(0,0,0,0.16)]
+             shadow-[2px_9px_32px_0px_rgba(0,0,0,0.06)]"
+                            >
                                 <img src={c1} alt="logo-image" />
                                 <p className="text-sm text-gray-500 mt-2 px-2">09/23/2021</p>
                                 <h4 className="font-semibold text-lg px-2">Lorem ipsum</h4>
-                                <p className="text-gray-600 text-sm px-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in</p>
-                            </NavLink>
-                            <NavLink to="/Events" className="cursor-pointer flex flex-col gap-1.5 p-3 hover:bg-white hover:shadow-[2px_9px_32px_0px_rgba(0,0,0,0.16)] shadow-[2px_9px_32px_0px_rgba(0,0,0,0.06)]">
+                                <p className="text-gray-600 text-sm px-2 pb-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in
+                                </p>
+                            </div>
+                            <div
+                                className="cursor-pointer flex flex-col gap-1.5 p-3
+             hover:bg-white
+             hover:shadow-[2px_9px_32px_0px_rgba(0,0,0,0.16)]
+             shadow-[2px_9px_32px_0px_rgba(0,0,0,0.06)]"
+                            >
                                 <img src={c2} alt="logo-image" className="w-full" />
                                 <p className="text-sm text-gray-500 mt-2 px-2">09/23/2021</p>
                                 <h4 className="font-semibold text-lg px-2">Lorem ipsum</h4>
-                                <p className="text-gray-600 text-sm px-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in</p>
-                            </NavLink>
+                                <p className="text-gray-600 text-sm px-2 pb-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in
+                                </p>
+                            </div>
                         </div>
 
                         <div className="max-lg:flex max-lg:flex-col max-lg:items-center max-lg:text-center">
