@@ -1,0 +1,136 @@
+import image1 from "../assets/image-1.png";
+import image2 from "../assets/image-2.png";
+import image3 from "../assets/image-3.png";
+import image4 from "../assets/image-4.png";
+import image5 from "../assets/image-5.png";
+import logo from "../assets/logo.png";
+
+function Footer() {
+    return (
+        <div className="bg-black">
+            <div className="max-w-[1320px] mx-auto px-3 flex flex-col  ">
+
+
+                <div className="flex gap-[31px]  max-lg:flex-col  ">
+
+
+                    <div className="w-1/2 max-lg:w-full max-lg:flex max-lg:flex-col   max-lg:pt-10 pt-[81px]">
+
+                        <a href="#" className="flex  items-center  max-w-[316px]">
+                            <img src={logo} alt="logo-image" />
+                            <h1 className="font-Poppins font-bold text-[36px] leading-[135%] text-[#2C49FE]">
+                                Events<span className="text-[#01C8FF]">Free</span>
+                            </h1>
+                        </a>
+
+                        <p className=" font-Poppins  max-w-[346.18px]  font-normal text-[14px] leading-[150%] text-white pt-9 pb-6    ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c
+                        </p>
+
+                        <div className="flex gap-[15px]">
+                            <a
+                                href="https://www.instagram.com/accounts/login/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="insta  transition-transform duration-300 hover:scale-120 cursor-pointer"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.2058 6.06667C10.19 6.06667 9.19704 6.36773 8.35242 6.93179C7.50781 7.49585 6.84952 8.29756 6.46078 9.23556C6.07205 10.1736 5.97034 11.2057 6.16852 12.2015C6.36669 13.1972 6.85585 14.1119 7.57413 14.8298C8.29241 15.5477 9.20756 16.0366 10.2039 16.2347C11.2001 16.4328 12.2328 16.3311 13.1713 15.9426C14.1098 15.5541 14.9119 14.8961 15.4763 14.0519C16.0406 13.2078 16.3418 12.2153 16.3418 11.2C16.3403 9.83903 15.7987 8.53424 14.8358 7.57189C13.873 6.60954 12.5675 6.06821 11.2058 6.06667V6.06667ZM11.2058 15.4C10.3747 15.4 9.56227 15.1537 8.87123 14.6922C8.18018 14.2307 7.64157 13.5747 7.32352 12.8073C7.00547 12.0398 6.92225 11.1953 7.08439 10.3806C7.24653 9.5659 7.64675 8.81753 8.23444 8.23015C8.82213 7.64277 9.57089 7.24276 10.386 7.0807C11.2012 6.91864 12.0461 7.00182 12.8139 7.31971C13.5818 7.63759 14.2381 8.17592 14.6998 8.86661C15.1616 9.55729 15.408 10.3693 15.408 11.2C15.4068 12.3135 14.9637 13.3811 14.1759 14.1685C13.3881 14.9559 12.3199 15.3988 11.2058 15.4ZM16.3418 0H6.06983C4.46057 0.00182184 2.91774 0.641572 1.77982 1.7789C0.641906 2.91622 0.00182279 4.45825 0 6.06667V16.3333C0.00182279 17.9418 0.641906 19.4838 1.77982 20.6211C2.91774 21.7584 4.46057 22.3982 6.06983 22.4H16.3418C17.9511 22.3982 19.4939 21.7584 20.6318 20.6211C21.7698 19.4838 22.4099 17.9418 22.4117 16.3333V6.06667C22.4099 4.45825 21.7698 2.91622 20.6318 1.7789C19.4939 0.641572 17.9511 0.00182184 16.3418 0V0ZM21.4779 16.3333C21.4763 17.6943 20.9347 18.9991 19.9718 19.9614C19.009 20.9238 17.7035 21.4651 16.3418 21.4667H6.06983C4.70815 21.4651 3.40268 20.9238 2.43983 19.9614C1.47697 18.9991 0.935364 17.6943 0.93382 16.3333V6.06667C0.935364 4.7057 1.47697 3.40091 2.43983 2.43856C3.40268 1.4762 4.70815 0.934877 6.06983 0.933333H16.3418C17.7035 0.934877 19.009 1.4762 19.9718 2.43856C20.9347 3.40091 21.4763 4.7057 21.4779 6.06667V16.3333ZM18.2095 5.13333C18.2095 5.31793 18.1547 5.49838 18.0521 5.65187C17.9495 5.80535 17.8037 5.92498 17.633 5.99562C17.4624 6.06626 17.2746 6.08475 17.0935 6.04873C16.9123 6.01272 16.746 5.92383 16.6154 5.7933C16.4848 5.66277 16.3958 5.49647 16.3598 5.31542C16.3238 5.13437 16.3422 4.94671 16.4129 4.77616C16.4836 4.60562 16.6033 4.45985 16.7569 4.3573C16.9104 4.25474 17.091 4.2 17.2757 4.2C17.5232 4.20031 17.7606 4.29874 17.9356 4.47371C18.1107 4.64868 18.2092 4.88589 18.2095 5.13333V5.13333Z"
+                                        fill="white" />
+                                </svg></div>
+                            </a>
+
+                            <a
+                                href="https://www.facebook.com/login"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="facebook  transition-transform duration-300 hover:scale-120 cursor-pointer"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.2303 0C5.03842 0 0 5.0344 0 11.2238C0 17.4132 5.03842 22.4476 11.2303 22.4476C17.4223 22.4476 22.4607 17.4132 22.4607 11.2238C22.4607 5.0344 17.4223 0 11.2303 0ZM11.2303 21.7C5.45094 21.7 0.74939 17.0002 0.74939 11.2238C0.74939 5.4474 5.45094 0.7476 11.2303 0.7476C17.0098 0.7476 21.7113 5.4474 21.7113 11.2238C21.7113 17.0002 17.0098 21.7 11.2303 21.7Z"
+                                        fill="white" />
+                                    <path
+                                        d="M13.6824 4.92378H11.8138C9.43399 4.89998 9.13004 6.37208 9.13004 7.96528V9.12378H8.07949C8.03201 9.11744 7.9837 9.12213 7.93832 9.13748C7.89295 9.15282 7.85172 9.17842 7.81785 9.21228C7.78397 9.24613 7.75836 9.28734 7.74301 9.33269C7.72765 9.37804 7.72296 9.42632 7.72931 9.47378V11.5738C7.72296 11.6212 7.72765 11.6695 7.74301 11.7149C7.75836 11.7602 7.78397 11.8014 7.81785 11.8353C7.85172 11.8691 7.89295 11.8947 7.93832 11.9101C7.9837 11.9254 8.03201 11.9301 8.07949 11.9238H9.13004V17.1738C9.1242 17.2213 9.12931 17.2696 9.14499 17.3148C9.16066 17.3601 9.18648 17.4012 9.22047 17.435C9.25446 17.4687 9.29572 17.4943 9.3411 17.5097C9.38648 17.5251 9.43479 17.5299 9.48232 17.5238H11.6219C11.8285 17.5476 11.9959 17.3803 11.9301 17.1738L11.9315 11.9238H13.6824C13.7299 11.9301 13.7782 11.9254 13.8236 11.9101C13.8689 11.8947 13.9102 11.8691 13.944 11.8353C13.9779 11.8014 14.0035 11.7602 14.0189 11.7149C14.0342 11.6695 14.0389 11.6212 14.0326 11.5738V9.47378C14.0389 9.42632 14.0342 9.37804 14.0189 9.33269C14.0035 9.28734 13.9779 9.24613 13.944 9.21228C13.9102 9.17842 13.8689 9.15282 13.8236 9.13748C13.7782 9.12213 13.7299 9.11744 13.6824 9.12378H11.9294L11.9315 8.07378C11.9994 7.62648 11.9994 7.69928 12.4147 7.72378H13.6677C13.765 7.70208 13.8687 7.71398 13.9415 7.64328C14.0144 7.57258 14.0564 7.47598 14.0319 7.37378V5.27378C14.0384 5.22636 14.0338 5.17809 14.0185 5.13273C14.0032 5.08737 13.9777 5.04615 13.9439 5.01227C13.9101 4.9784 13.8689 4.95279 13.8235 4.93744C13.7782 4.92209 13.7299 4.91742 13.6824 4.92378V4.92378ZM13.3077 6.98458L12.4295 6.95098C11.3418 6.95098 11.2507 7.54108 11.2507 8.14518L11.2479 9.47238C11.2478 9.52153 11.2575 9.57021 11.2762 9.61564C11.295 9.66108 11.3225 9.70237 11.3572 9.73715C11.392 9.77194 11.4332 9.79953 11.4787 9.81836C11.5241 9.83719 11.5728 9.84688 11.6219 9.84688H13.3322V11.1993H11.6233C11.5241 11.1993 11.4289 11.2386 11.3586 11.3087C11.2884 11.3788 11.2488 11.4739 11.2486 11.5731L11.2479 16.8238H9.8304V11.5738C9.8304 11.3673 9.68963 11.2 9.48232 11.2H8.42967V9.84758H9.48232C9.53146 9.84766 9.58014 9.83805 9.62556 9.81931C9.67099 9.80058 9.71227 9.77308 9.74706 9.73838C9.81709 9.66768 9.8297 9.57248 9.8297 9.47308V7.96458C9.8297 6.39518 10.147 5.64758 11.8131 5.64758H13.307V6.98458H13.3077Z"
+                                        fill="white" />
+                                </svg></div>
+                            </a>
+
+
+                            <a
+                                href="https://twitter.com/login"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className="twitter  transition-transform duration-300 hover:scale-120 cursor-pointer "><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.205 -0.0238037C5.01303 -0.0238037 -0.0253906 5.0106 -0.0253906 11.2C-0.0253906 17.3894 5.01303 22.4238 11.205 22.4238C17.3969 22.4238 22.4353 17.3894 22.4353 11.2C22.4353 5.0106 17.3969 -0.0238037 11.205 -0.0238037ZM11.205 21.6762C5.42555 21.6762 0.724 16.9764 0.724 11.2C0.724 5.4236 5.42555 0.723796 11.205 0.723796C16.9844 0.723796 21.6859 5.4236 21.6859 11.2C21.6859 16.9764 16.9844 21.6762 11.205 21.6762Z"
+                                        fill="white" />
+                                    <path
+                                        d="M17.3632 7.73222C17.4409 7.5885 17.5049 7.4378 17.5544 7.28212C17.5773 7.20991 17.5778 7.13244 17.5557 7.05996C17.5337 6.98748 17.4902 6.92339 17.4309 6.87614C17.3716 6.8289 17.2994 6.80073 17.2238 6.79535C17.1482 6.78997 17.0728 6.80764 17.0074 6.84602C16.6485 7.05911 16.2601 7.21786 15.8546 7.31712C15.3625 6.87316 14.7233 6.62704 14.0603 6.62622C13.7001 6.6265 13.3437 6.69946 13.0124 6.84074C12.6811 6.98202 12.3818 7.18871 12.1323 7.44841C11.8829 7.70811 11.6885 8.01548 11.5608 8.35209C11.4331 8.68869 11.3747 9.04761 11.3891 9.40732C9.81398 9.20914 8.37566 8.41251 7.3725 7.18272C7.33407 7.13613 7.28495 7.0995 7.22932 7.07594C7.17369 7.05238 7.11319 7.0426 7.05297 7.04741C6.99274 7.05222 6.93457 7.07148 6.88339 7.10357C6.8322 7.13566 6.78953 7.17962 6.75898 7.23172C6.52928 7.62577 6.40443 8.07207 6.39634 8.52805C6.38824 8.98403 6.49718 9.43448 6.71276 9.83642C6.65989 9.84534 6.60909 9.86384 6.56288 9.89102C6.50625 9.92711 6.45963 9.97687 6.42732 10.0357C6.395 10.0946 6.37804 10.1606 6.37799 10.2277C6.37799 11.0222 6.73167 11.7516 7.30177 12.2472L7.27725 12.2717C7.23421 12.3204 7.2046 12.3794 7.19134 12.443C7.17808 12.5066 7.18162 12.5725 7.20161 12.6343C7.32049 13.005 7.51899 13.3452 7.7832 13.6312C8.04742 13.9171 8.37097 14.1419 8.73121 14.2898C7.99134 14.6506 7.16334 14.7912 6.34577 14.6951C6.26173 14.6866 6.17722 14.7061 6.10549 14.7507C6.03375 14.7953 5.97884 14.8624 5.94936 14.9415C5.92105 15.0212 5.92052 15.1082 5.94785 15.1882C5.97519 15.2683 6.02878 15.3367 6.09994 15.3825C7.21143 16.0955 8.50447 16.4743 9.82518 16.4738C14.1534 16.4738 16.7406 12.9598 16.7406 9.56272L16.7399 9.44792C17.1594 9.12061 17.5237 8.72832 17.8191 8.28592C17.8639 8.21904 17.8859 8.13954 17.8819 8.05919C17.8779 7.97884 17.8481 7.90191 17.797 7.83979C17.7458 7.77767 17.676 7.73367 17.5979 7.7143C17.5198 7.69492 17.4375 7.70121 17.3632 7.73222V7.73222ZM16.1411 8.96072C16.0902 8.99725 16.0494 9.04592 16.0222 9.10229C15.9951 9.15866 15.9825 9.22093 15.9856 9.28342C15.9898 9.37582 15.9919 9.46962 15.9919 9.56202C15.9919 12.5916 13.6856 15.7255 9.82588 15.7255C9.13749 15.7258 8.45397 15.6104 7.80393 15.3839C8.58245 15.2348 9.3138 14.9011 9.93654 14.4109C9.99716 14.3631 10.0415 14.2978 10.0636 14.2239C10.0857 14.15 10.0844 14.071 10.0598 13.9979C10.0353 13.9247 9.98876 13.8609 9.92658 13.8152C9.8644 13.7695 9.7896 13.744 9.71242 13.7424C9.41044 13.7367 9.11404 13.66 8.84713 13.5188C8.58022 13.3775 8.35027 13.1755 8.17582 12.929C8.35301 12.9171 8.5267 12.8877 8.69549 12.8422C8.77718 12.8204 8.84905 12.7715 8.89937 12.7036C8.94969 12.6356 8.97549 12.5527 8.97257 12.4682C8.96964 12.3837 8.93816 12.3027 8.88326 12.2385C8.82836 12.1742 8.75328 12.1304 8.67028 12.1142C8.32922 12.0449 8.01343 11.8842 7.75671 11.6493C7.49999 11.4144 7.31199 11.1142 7.21282 10.7807C7.39912 10.8276 7.59032 10.8549 7.78152 10.8612C7.9461 10.8605 8.09878 10.7597 8.14991 10.6015C8.20103 10.4433 8.1408 10.269 8.00143 10.1766C7.67189 9.95718 7.41816 9.64141 7.27488 9.27244C7.1316 8.90348 7.10577 8.49931 7.20091 8.11512C8.41747 9.36274 10.0602 10.1057 11.8009 10.1955C11.9242 10.1962 12.032 10.1521 12.107 10.0618C12.1819 9.97152 12.2106 9.85182 12.184 9.73702C12.0882 9.32472 12.1311 8.89236 12.3059 8.50685C12.4808 8.12134 12.7779 7.80417 13.1512 7.60443C13.5246 7.40469 13.9534 7.33351 14.3713 7.40192C14.7893 7.47032 15.173 7.67449 15.4631 7.98282C15.5066 8.02919 15.5612 8.06374 15.6217 8.08321C15.6822 8.10268 15.7467 8.10643 15.8091 8.09412C15.9247 8.07102 16.0388 8.04442 16.1516 8.01362C16.1007 8.05165 16.0479 8.08694 15.9933 8.11932C15.9207 8.16379 15.8654 8.23165 15.8365 8.31174C15.8076 8.39182 15.8069 8.47935 15.8345 8.55989C15.8621 8.64043 15.9163 8.70918 15.9882 8.75482C16.0601 8.80045 16.1454 8.82024 16.23 8.81092L16.3575 8.79482C16.2873 8.85261 16.2151 8.90794 16.1411 8.96072V8.96072Z"
+                                        fill="white" />
+                                </svg></div>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div className="w-1/2 max-lg:w-full flex gap-[74px] maxx-lg:gap-[150px] max-[640px]:gap-20  max-[504px]:flex-col   pt-[126px] max-lg:pt-[50px]">
+
+
+                        <div className="flex gap-[70px] ">
+
+                            <div className="flex flex-col gap-3    ">
+                                <h1 className="font-Poppins font-bold text-[14px] text-white">SERVICES</h1>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0 ">About</p>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">News</p>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Contact</p>
+                            </div>
+
+                            <div className="flex flex-col gap-3 text-center max-lg:text-center">
+                                <h1 className="font-Poppins font-bold text-[14px] text-white">EVENTS</h1>
+                                <p className="text-white text-[12px] cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
+                                <p className="text-white text-[12px]  cursor-pointer relative overflow-hidden after:content-[''] after:absolute after:bottom-0 after:-left-full after:h-px after:w-full after:bg-white after:transition-all hover:after:left-0">Ullamcorper</p>
+                            </div>
+
+                        </div>
+
+                        <div className=" ">
+                            <h1 className="font-Poppins font-bold text-[14px] pb-2.5   text-white">
+                                GALLERY
+                            </h1>
+
+                            <div className="flex flex-wrap gap-[18px] max-w-[350px]   ">
+                                <img className=" object-cover transition-transform duration-300 hover:scale-110" src={image1} alt="" />
+                                <img className=" object-cover transition-transform duration-300 hover:scale-110" src={image2} alt="" />
+                                <img className=" object-cover transition-transform duration-300 hover:scale-110" src={image3} alt="" />
+                                <img className=" object-cover transition-transform duration-300 hover:scale-110" src={image4} alt="" />
+                                <img className=" object-cover transition-transform duration-300 hover:scale-110" src={image5} alt="" />
+
+                                <button
+                                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                    className="w-[90px] h-[62px] bg-[rgba(45,60,174,0.53)] font-Poppins font-bold text-[12px] text-white object-cover transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
+                                    Show More
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <p className="text-center font-Poppins text-[14px] text-white pt-[95px] pb-[25px]">
+                    © Credits of companyName belong to companyName.
+                </p>
+
+            </div>
+        </div>
+    );
+}
+
+export default Footer;
